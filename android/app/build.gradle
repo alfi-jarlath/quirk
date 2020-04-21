@@ -97,6 +97,8 @@ apply from: 'expo.gradle'
 
 
 dependencies {
+    compile project(':react-native-svg')
+    compile project(':react-native-autogrow-textinput')
     compile project(':react-native-onesignal')
     compile project(':react-native-iap')
   implementation fileTree(dir: 'libs', include: ['*.jar'])

@@ -10,6 +10,8 @@ import expolib_v1.okhttp3.OkHttpClient;
 
 // Needed for `react-native link`
 // import com.facebook.react.ReactApplication;
+
+import com.wix.autogrowtextinput.AutoGrowTextInputPackage;
 import com.geektime.rnonesignalandroid.ReactNativeOneSignalPackage;
 import com.dooboolab.RNIap.RNIapPackage;
 
@@ -28,6 +30,7 @@ public class MainApplication extends ExpoApplication {
 
         // Needed for `react-native link`
         // new MainReactPackage(),
+            new AutoGrowTextInputPackage(),
             new ReactNativeOneSignalPackage(),
             new RNIapPackage()
     );
